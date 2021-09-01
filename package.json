@@ -1,0 +1,21 @@
+{
+  "name": "similar-music-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "start:watch": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "@grammyjs/types": "^2.2.6",
+    "@types/node": "^16.7.10"
+  }
+}
