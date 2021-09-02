@@ -3,7 +3,6 @@ import { Context } from "grammy";
 import bot from "./config/require";
 import axios from "axios";
 dotenv.config();
-
 // process.env.ACCESS_TOKEN =
 //   "BQCA-FbOFeYazCU4xA1Mkl_5AnQ-Gv6ptRBah-oyaJ9tzYUy5T3Dw7zZmpKxODOIMbmpjilU-72UdOJusOY8BMUgGN5EkZDnXqNlemJB15CZ9xScFTWeuDnuEoAzVXLsgP1k8diBrvVetaVBVxgptWuGsEvATbiaQ-LCy0aI9qGnhgxw3zfcvfBh5w";
 
