@@ -6,7 +6,12 @@
   "scripts": {
     "start:watch": "tsc -w",
     "start:run": "nodemon build/app.js",
-    "start": "concurrently npm:start:*"
+    "start": "concurrently npm:start:*",
+    "deploy": "git add . && git commit -m Heroku && git push heroku master"
+  },
+  "engines": {
+    "node": "14.16.0"
+    
   },
   "keywords": [],
   "author": "",
